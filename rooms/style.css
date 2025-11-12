@@ -1,0 +1,82 @@
+
+
+body {
+width: 300px;
+background-color: black;
+color: whitesmoke;
+}
+
+
+
+.cube {
+margin-top: 10vw;
+margin-left: 8vw;
+display: flex;
+flex-direction: row;
+position: absolute;
+
+
+
+
+}
+.interior {
+    
+    margin-left: 8vw;
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+    position: absolute;
+
+
+    
+    }
+
+.faceleft img {
+    width: 400px;
+    margin-top: 90px;
+    transform:skew(0deg,-24deg) 
+
+    
+}
+
+.faceright img {
+    width: 400px;
+
+
+}
+
+.facebottom img {
+    width: 400px;
+    margin-top: 90px;
+    transform:skew(0deg,24deg) 
+    
+}
+
+
+.kamin img {
+
+width: 200px;
+margin-top: 200px;
+margin-left: 300px;
+}
+
+.teppich img {
+    width: 300px;
+    margin-top: 250px;
+margin-left: 100px;
+transform:skew(0deg,24deg) 
+
+}
+
+.table img {
+    width: 200px;
+    margin-top: 380px;
+    margin-left: 40px;
+    transform:skew(0deg,-24deg) 
+}
+.text {
+
+    position: absolute;
+    margin-top: 800px;
+    font-family: helvetica;
+}
